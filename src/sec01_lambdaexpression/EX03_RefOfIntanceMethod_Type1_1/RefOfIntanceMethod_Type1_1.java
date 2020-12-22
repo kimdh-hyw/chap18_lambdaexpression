@@ -33,7 +33,6 @@ public class RefOfIntanceMethod_Type1_1 {
 		
 		a1.abc();
 		a2.abc();
-		a3.abc();
-		
+		a3.abc();		
 	}
 }

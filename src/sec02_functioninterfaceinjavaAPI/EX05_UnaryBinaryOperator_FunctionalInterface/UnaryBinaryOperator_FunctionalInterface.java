@@ -53,9 +53,7 @@ public class UnaryBinaryOperator_FunctionalInterface {
 		DoubleBinaryOperator bo4 = (num1, num2)->num1/num2; //double->double
 		System.out.println(bo2.applyAsInt(10, 20)); //30
 		System.out.println(bo3.applyAsLong(20L, 10L)); //200
-		System.out.println(bo4.applyAsDouble(40.2, 12.0)); //3.35
-		
-		
+		System.out.println(bo4.applyAsDouble(40.2, 12.0)); //3.35		
 	}
 }
 

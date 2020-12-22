@@ -22,11 +22,15 @@ public class RefOfInstanceMethod_Type2_1 {
 		};
 		
 		//@2. 람다식
-		A a2 = (B b, int k)->{	b.bcd(k);};
-		
+		A a2 = (B b, int k)->{	b.bcd(k);};		
 		
 		//@3. 인스턴스 메서드 참조 Type2
-		A a3 = B::bcd;		
+		A a3 = B::bcd;	
+		
+		a1.abc(new B(), 3);
+		a2.abc(new B(), 3);
+		a3.abc(new B(), 3);
+
 	}
 }
 

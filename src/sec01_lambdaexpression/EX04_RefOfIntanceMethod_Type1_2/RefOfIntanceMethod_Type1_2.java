@@ -22,7 +22,13 @@ public class RefOfIntanceMethod_Type1_2 {
 		
 		//#3. 인스턴스 메서드 참조 type1 
 		A a3 = System.out::println;
+		
+		a1.abc(3);
+		a2.abc(3);
+		a3.abc(3);
 	}
 }
+
+
 
 

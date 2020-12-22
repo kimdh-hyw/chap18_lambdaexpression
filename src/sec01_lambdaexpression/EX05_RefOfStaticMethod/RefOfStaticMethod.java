@@ -25,8 +25,11 @@ public class RefOfStaticMethod {
 		A a2 = ()->{ B.bcd(); };
 		
 		//@3. 정적메서드 참조
-		A a3 = B::bcd;
-				
+		A a3 = B::bcd;			
+		
+		a1.abc();
+		a2.abc();
+		a3.abc();
 	}
 }
 

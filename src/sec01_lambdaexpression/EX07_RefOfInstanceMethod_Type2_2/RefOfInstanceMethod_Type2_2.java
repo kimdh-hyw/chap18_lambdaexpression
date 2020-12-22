@@ -22,5 +22,10 @@ public class RefOfInstanceMethod_Type2_2 {
 		
 		//@3. 인스턴스 메서드 참조 Type2 
 		A a3 = String::length;
+		
+		System.out.println(a1.abc("안녕"));
+		System.out.println(a2.abc("안녕"));
+		System.out.println(a3.abc("안녕"));
+
 	}
 }

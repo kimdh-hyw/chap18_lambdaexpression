@@ -13,7 +13,6 @@ interface D { // 입력 O   리턴 O
 	double method4(int a, double b);
 }
 
-
 public class FunctionToLambdaExpression {
 	public static void main(String[] args) {
 		

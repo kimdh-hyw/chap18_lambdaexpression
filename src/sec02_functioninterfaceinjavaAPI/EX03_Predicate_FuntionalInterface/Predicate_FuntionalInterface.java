@@ -16,6 +16,7 @@ public class Predicate_FuntionalInterface {
 				return (t.length()>0)? true:false;
 			}
 		};
+		System.out.println(p.test("안녕")); //true
 		
 		//#2. Predicate<T>의 람다식 표현
 		//@1. 기본형 Predicate<T>

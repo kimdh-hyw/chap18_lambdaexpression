@@ -37,6 +37,5 @@ public class RefOfClassConstructor_2 {
 		a1.abc(3); // 두번째 생성자
 		a2.abc(3); // 두번째 생성자
 		a3.abc(3); // 두번째 생성자
-
 	}
 }

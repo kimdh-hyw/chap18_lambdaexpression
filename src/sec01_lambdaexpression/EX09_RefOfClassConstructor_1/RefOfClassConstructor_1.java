@@ -35,8 +35,6 @@ public class RefOfClassConstructor_1 {
 		a1.abc(); //첫번째 생성자
 		a2.abc(); //첫번째 생성자
 		a3.abc(); //첫번째 생성자
-		
-		
 	}
 }
 

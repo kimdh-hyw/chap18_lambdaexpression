@@ -44,20 +44,6 @@ public class Function_FunctionalInterface {
 		ToDoubleFunction<Integer> f8 = (num)->num/100.0; //Integer->double
 		System.out.println(f6.applyAsInt("반갑습니다")); //5
 		System.out.println(f7.applyAsLong(58.254)); //58
-		System.out.println(f8.applyAsDouble(250)); //2.5
-		
+		System.out.println(f8.applyAsDouble(250)); //2.5		
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

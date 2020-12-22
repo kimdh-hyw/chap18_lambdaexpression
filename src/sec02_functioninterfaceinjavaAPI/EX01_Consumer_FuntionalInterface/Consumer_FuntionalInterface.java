@@ -31,7 +31,6 @@ public class Consumer_FuntionalInterface {
 		c2.accept(5);
 		c3.accept(5L);
 		c4.accept(7.8);
-		c5.accept("홍길동", 16);
-				
+		c5.accept("홍길동", 16);				
 	}
 }
