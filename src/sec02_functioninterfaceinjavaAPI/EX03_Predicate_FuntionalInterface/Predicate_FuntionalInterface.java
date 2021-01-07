@@ -19,7 +19,7 @@ public class Predicate_FuntionalInterface {
 		System.out.println(p.test("안녕")); //true
 		
 		//#2. Predicate<T>의 람다식 표현
-		//@1. 기본형 Predicate<T>
+		//@1. 표준형 Predicate<T>
 		Predicate<String> p1 = (str)->(str.length()>0?true:false);
 		System.out.println(p1.test("안녕")); //true
 		System.out.println();

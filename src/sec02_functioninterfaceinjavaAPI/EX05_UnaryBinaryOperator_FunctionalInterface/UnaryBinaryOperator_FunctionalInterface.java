@@ -31,7 +31,7 @@ public class UnaryBinaryOperator_FunctionalInterface {
 		System.out.println();
 		
 		//#2. 람다식
-		//@1. 기본형
+		//@1. 표준형
 		UnaryOperator<Integer> uo1 = value -> value*2;
 		System.out.println(uo1.apply(5)); //10
 		

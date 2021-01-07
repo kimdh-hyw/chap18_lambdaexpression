@@ -22,7 +22,7 @@ public class Function_FunctionalInterface {
 		System.out.println(f.apply("안녕"));//2
 		
 		//#2. Function<T, R> 람다식 표현
-		//@1. 기본형 
+		//@1. 표준형 
 		Function<String, Integer> f1 = str-> str.length();
 		System.out.println(f1.apply("안녕"));//2
 		

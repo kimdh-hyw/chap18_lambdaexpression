@@ -19,7 +19,7 @@ public class Suppler_FuntionalInterface {
 		System.out.println(s.get()); //Supplier<T> 함수형 인터페이스
 		
 		//#2. Supplier<T> 함수형 인터페이스
-		//@1. 기본형		
+		//@1. 표준형		
 		Supplier<String> s1 = ()-> "Supplier<T> 함수형 인터페이스";
 		System.out.println(s1.get()); //Supplier<T> 함수형 인터페이스
 		

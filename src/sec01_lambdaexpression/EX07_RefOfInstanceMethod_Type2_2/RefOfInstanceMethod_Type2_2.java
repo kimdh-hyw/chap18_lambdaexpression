@@ -16,9 +16,7 @@ public class RefOfInstanceMethod_Type2_2 {
 		};
 
 		//@2.람다식
-		A a2 = (String str)->{
-			return str.length();
-		};
+		A a2 = (String str)-> str.length();
 		
 		//@3. 인스턴스 메서드 참조 Type2 
 		A a3 = String::length;

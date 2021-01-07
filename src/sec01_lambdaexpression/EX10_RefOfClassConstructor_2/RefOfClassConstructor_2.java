@@ -27,9 +27,7 @@ public class RefOfClassConstructor_2 {
 		};
 
 		// @2.람다식
-		A a2 = (int k) -> {
-			return new B(3);
-		};
+		A a2 = (int k) -> new B(3);
 
 		// @3. 클래스 생성자 참조
 		A a3 = B::new;

@@ -18,7 +18,7 @@ public class Consumer_FuntionalInterface {
 		};
 		
 		//#2. 람다식 표현
-		//@1. 기본 Consumer
+		//@1. 표준 Consumer
 		Consumer<String> c1 = t->System.out.println(t);
 		c1.accept("Consumer<T> 함수형 인터페이스");
 		
