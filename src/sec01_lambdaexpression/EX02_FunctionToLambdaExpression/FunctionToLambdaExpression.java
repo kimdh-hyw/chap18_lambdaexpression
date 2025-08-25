@@ -18,7 +18,7 @@ interface D { // 입력 O   리턴 O
 public class FunctionToLambdaExpression {
 	public static void main(String[] args) {
 		
-		//인터페이스의 함수 구현 --> 람다식
+//인터페이스의 함수 구현 --> 람다식
 		//#1. 입력 X   리턴 X
 		//@1-1 익명이너클래스 방식
 		A a1 = new A() {
@@ -65,10 +65,11 @@ public class FunctionToLambdaExpression {
 		
 		
 		//#3. 입력 X   리턴 O
+		System.out.println("입력 x 리턴 O 함수");	
 		//@3-1 익명이너클래스 방식
 		C c1 = new C() {
 			@Override
-			public int method3() {
+			public int method3() {				
 				return 4;
 			}
 		};
@@ -78,17 +79,18 @@ public class FunctionToLambdaExpression {
 		C c3 = ()->4;
 		
 		//@3-3. 메서드 호출
-		System.out.println(c1.method3());
-		System.out.println(c2.method3());
-		System.out.println(c3.method3());
+		System.out.println("리턴값 = "+c1.method3());
+		System.out.println("리턴값 = "+c2.method3());
+		System.out.println("리턴값 = "+c3.method3());
 		System.out.println();
 		
 		
 		//#4. 입력 O   리턴 O
+		System.out.println("입력 O 리턴 O 함수");
 		//@4-1 익명이너클래스 방식
 		D d1 = new D() {
 			@Override
-			public double method4(int a, double b) {				
+			public double method4(int a, double b) {	
 				return a+b;
 			}
 		};
@@ -99,12 +101,13 @@ public class FunctionToLambdaExpression {
 		D d4 = (a, b)-> a+b;
 		
 		//@4-3. 메서드 호출
-		System.out.println(d1.method4(2, 3.8));
-		System.out.println(d2.method4(2, 3.8));
-		System.out.println(d3.method4(2, 3.8));
-		System.out.println(d4.method4(2, 3.8));
+		System.out.println("리턴값 = "+d1.method4(2, 3.8));
+		System.out.println("리턴값 = "+d2.method4(2, 3.8));
+		System.out.println("리턴값 = "+d3.method4(2, 3.8));
+		System.out.println("리턴값 = "+d4.method4(2, 3.8));
 				
 	}
 }
+
 
 
