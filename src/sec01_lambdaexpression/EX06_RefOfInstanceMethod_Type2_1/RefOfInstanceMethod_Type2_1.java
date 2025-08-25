@@ -1,5 +1,7 @@
 package sec01_lambdaexpression.EX06_RefOfInstanceMethod_Type2_1;
 
+/*직접 정의한 인스턴스 메서드 참조*/
+
 interface A {
 	void abc(B b, int k);
 }
@@ -33,14 +35,4 @@ public class RefOfInstanceMethod_Type2_1 {
 
 	}
 }
-
-
-
-
-
-
-
-
-
-
 
