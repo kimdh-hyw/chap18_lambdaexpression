@@ -1,5 +1,7 @@
 package sec02_functioninterfaceinjavaAPI.EX04_Function_FunctionalInterface;
 
+/* Java API 제공: Function<> 함수형 인터페이스 */
+
 import java.util.function.BiFunction;
 import java.util.function.DoubleFunction;
 import java.util.function.Function;
@@ -46,4 +48,5 @@ public class Function_FunctionalInterface {
 		System.out.println(f7.applyAsLong(58.254)); //58
 		System.out.println(f8.applyAsDouble(250)); //2.5		
 	}
+
 }
