@@ -1,5 +1,7 @@
 package sec01_lambdaexpression.EX08_RefOfArrayConstructor;
 
+/*배열의 생성자 참조*/
+
 interface A {
 	int[] abc(int len);
 }
@@ -33,3 +35,4 @@ public class RefOfArrayConstructor {
 		
 	}
 }
+
