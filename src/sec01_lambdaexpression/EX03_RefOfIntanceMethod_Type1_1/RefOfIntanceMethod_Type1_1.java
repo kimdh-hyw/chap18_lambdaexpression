@@ -1,5 +1,7 @@
 package sec01_lambdaexpression.EX03_RefOfIntanceMethod_Type1_1;
 
+/*정의돼 있는 인스턴스 메서드 참조*/
+
 interface A {
 	void abc();
 }
@@ -36,3 +38,4 @@ public class RefOfIntanceMethod_Type1_1 {
 		a3.abc();		
 	}
 }
+
