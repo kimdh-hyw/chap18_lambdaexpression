@@ -1,5 +1,7 @@
 package sec01_lambdaexpression.EX05_RefOfStaticMethod;
 
+/*정적 메서드 참조*/
+
 interface A {
 	void abc();	
 }
@@ -32,6 +34,7 @@ public class RefOfStaticMethod {
 		a3.abc();
 	}
 }
+
 
 
 
