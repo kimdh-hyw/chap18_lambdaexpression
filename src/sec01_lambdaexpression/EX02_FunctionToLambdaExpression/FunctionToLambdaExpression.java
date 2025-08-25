@@ -78,9 +78,9 @@ public class FunctionToLambdaExpression {
 		C c3 = ()->4;
 		
 		//@3-3. 메서드 호출
-		c1.method3();
-		c2.method3();
-		c3.method3();
+		System.out.println(c1.method3());
+		System.out.println(c2.method3());
+		System.out.println(c3.method3());
 		System.out.println();
 		
 		
@@ -99,11 +99,12 @@ public class FunctionToLambdaExpression {
 		D d4 = (a, b)-> a+b;
 		
 		//@4-3. 메서드 호출
-		d1.method4(2, 3.8);
-		d2.method4(2, 3.8);
-		d3.method4(2, 3.8);
-		d4.method4(2, 3.8);
+		System.out.println(d1.method4(2, 3.8));
+		System.out.println(d2.method4(2, 3.8));
+		System.out.println(d3.method4(2, 3.8));
+		System.out.println(d4.method4(2, 3.8));
 				
 	}
 }
+
 
