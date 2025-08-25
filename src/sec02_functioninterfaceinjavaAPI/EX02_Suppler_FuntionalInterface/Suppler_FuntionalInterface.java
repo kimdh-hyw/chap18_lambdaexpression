@@ -1,5 +1,7 @@
 package sec02_functioninterfaceinjavaAPI.EX02_Suppler_FuntionalInterface;
 
+/* Java API 제공: Supplier<> 함수형 인터페이스 */
+
 import java.util.function.BooleanSupplier;
 import java.util.function.DoubleSupplier;
 import java.util.function.IntSupplier;
@@ -35,5 +37,6 @@ public class Suppler_FuntionalInterface {
 		
 	}
 }
+
 
 
