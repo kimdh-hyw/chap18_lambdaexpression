@@ -1,6 +1,6 @@
 package sec01_lambdaexpression.EX07_RefOfInstanceMethod_Type2_2;
 
-/*자바가 제공하는 인스턴스 메서드 참조*/
+/*첫 번째 매개변수로 전달된 객체의 메서드를 참조 #2*/
 
 interface A {
 	int abc(String str);
@@ -29,4 +29,5 @@ public class RefOfInstanceMethod_Type2_2 {
 
 	}
 }
+
 
