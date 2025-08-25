@@ -1,5 +1,7 @@
 package sec01_lambdaexpression.EX10_RefOfClassConstructor_2;
 
+/*클래스의 생성자 참조 - 매개변수를 가진 생성자 참조*/
+
 interface A {
 	B abc(int k);
 }
@@ -37,3 +39,4 @@ public class RefOfClassConstructor_2 {
 		a3.abc(3); // 두번째 생성자
 	}
 }
+
