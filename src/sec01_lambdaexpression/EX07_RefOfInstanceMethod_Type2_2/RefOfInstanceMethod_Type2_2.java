@@ -1,5 +1,7 @@
 package sec01_lambdaexpression.EX07_RefOfInstanceMethod_Type2_2;
 
+/*자바가 제공하는 인스턴스 메서드 참조*/
+
 interface A {
 	int abc(String str);
 }
@@ -27,3 +29,4 @@ public class RefOfInstanceMethod_Type2_2 {
 
 	}
 }
+
