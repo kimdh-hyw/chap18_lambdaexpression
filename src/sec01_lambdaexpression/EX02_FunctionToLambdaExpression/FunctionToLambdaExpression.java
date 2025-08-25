@@ -1,5 +1,7 @@
 package sec01_lambdaexpression.EX02_FunctionToLambdaExpression;
 
+/*함수형 인터페이스의 객체를 생성하기 위한 람다식 표현 방법*/
+
 interface A { // 입력 X   리턴 X
 	void method1();
 }
@@ -74,6 +76,7 @@ public class FunctionToLambdaExpression {
 				
 	}
 }
+
 
 
 
