@@ -1,5 +1,7 @@
 package sec02_functioninterfaceinjavaAPI.EX01_Consumer_FuntionalInterface;
 
+/* Java API 제공: Consumer<> 함수형 인터페이스 */
+
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
 import java.util.function.DoubleConsumer;
@@ -34,3 +36,4 @@ public class Consumer_FuntionalInterface {
 		c5.accept("홍길동", 16);				
 	}
 }
+
