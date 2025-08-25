@@ -1,5 +1,7 @@
 package sec02_functioninterfaceinjavaAPI.EX05_UnaryBinaryOperator_FunctionalInterface;
 
+/* Java API 제공: UnaryOperator<>, BinaryOperator<> 함수형 인터페이스 */
+
 import java.util.function.BinaryOperator;
 import java.util.function.DoubleBinaryOperator;
 import java.util.function.DoubleUnaryOperator;
@@ -56,6 +58,7 @@ public class UnaryBinaryOperator_FunctionalInterface {
 		System.out.println(bo4.applyAsDouble(40.2, 12.0)); //3.35		
 	}
 }
+
 
 
 
