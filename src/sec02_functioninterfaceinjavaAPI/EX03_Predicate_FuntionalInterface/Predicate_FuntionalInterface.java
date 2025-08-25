@@ -1,5 +1,7 @@
 package sec02_functioninterfaceinjavaAPI.EX03_Predicate_FuntionalInterface;
 
+/* Java API 제공: Predicate<> 함수형 인터페이스 */
+
 import java.util.function.BiPredicate;
 import java.util.function.DoublePredicate;
 import java.util.function.IntPredicate;
@@ -37,6 +39,7 @@ public class Predicate_FuntionalInterface {
 		
 	}
 }
+
 
 
 
