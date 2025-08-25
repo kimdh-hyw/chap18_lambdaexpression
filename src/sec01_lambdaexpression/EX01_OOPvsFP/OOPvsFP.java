@@ -1,5 +1,7 @@
 package sec01_lambdaexpression.EX01_OOPvsFP;
 
+/*객체 지향 프로그래밍 문법과 함수형 프로그래밍 문법*/
+
 interface A {
 	void abc();
 }
@@ -32,6 +34,7 @@ public class OOPvsFP {
 		a3.abc();
 	}
 }
+
 
 
 
