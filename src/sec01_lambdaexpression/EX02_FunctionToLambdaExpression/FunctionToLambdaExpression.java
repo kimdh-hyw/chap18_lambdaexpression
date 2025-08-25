@@ -31,6 +31,13 @@ public class FunctionToLambdaExpression {
 		A a2 = ()->{System.out.println("입력 x 리턴 x 함수");};
 		A a3 = ()->System.out.println("입력 x 리턴 x 함수"); //중괄호 삭제 가능 (한줄 명령일때만 가능)
 		
+		//@1-3. 메서드 호출
+		a1.method1();
+		a1.method1();
+		a1.method1();
+		System.out.println();		
+		
+		
 		//#2. 입력 O   리턴 X
 		//@2-1 익명이너클래스 방식
 		B b1 = new B() {
@@ -46,6 +53,17 @@ public class FunctionToLambdaExpression {
 		B b4 = (a)->System.out.println("입력 O 리턴 x 함수"); //중괄호 삭제 가능 (한줄 명령일때만 가능)
 		B b5 = a->System.out.println("입력 O 리턴 x 함수"); //입력 매개변수가 하나인 경우 소괄호도 생략가능
 		
+		
+		//@3-3. 메서드 호출
+		b1.method2(3);
+		b2.method2(3);
+		b3.method2(3);
+		b4.method2(3);
+		b5.method2(3);
+		System.out.println();
+		
+		
+		
 		//#3. 입력 X   리턴 O
 		//@3-1 익명이너클래스 방식
 		C c1 = new C() {
@@ -58,6 +76,12 @@ public class FunctionToLambdaExpression {
 		//@3-2  람다식 표현
 		C c2 = ()->{ return 4; };
 		C c3 = ()->4;
+		
+		//@3-3. 메서드 호출
+		c1.method3();
+		c2.method3();
+		c3.method3();
+		System.out.println();
 		
 		
 		//#4. 입력 O   리턴 O
@@ -73,16 +97,13 @@ public class FunctionToLambdaExpression {
 		D d2 = (int a, double b)->{return a+b;};
 		D d3 = (a, b)->{return a+b;};
 		D d4 = (a, b)-> a+b;
+		
+		//@4-3. 메서드 호출
+		d1.method4(2, 3.8);
+		d2.method4(2, 3.8);
+		d3.method4(2, 3.8);
+		d4.method4(2, 3.8);
 				
 	}
 }
-
-
-
-
-
-
-
-
-
 
