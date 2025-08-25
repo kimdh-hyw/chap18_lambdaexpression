@@ -1,5 +1,7 @@
 package sec01_lambdaexpression.EX09_RefOfClassConstructor_1;
 
+/*클래스의 생성자 참조 - 기본 생성자 참조*/
+
 interface A {
 	B abc();
 }
@@ -35,6 +37,7 @@ public class RefOfClassConstructor_1 {
 		a3.abc(); //첫번째 생성자
 	}
 }
+
 
 
 
