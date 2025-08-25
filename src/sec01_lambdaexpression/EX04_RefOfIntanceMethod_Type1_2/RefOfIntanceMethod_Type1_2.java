@@ -1,5 +1,7 @@
 package sec01_lambdaexpression.EX04_RefOfIntanceMethod_Type1_2;
 
+/*자바가 제공하는 인스턴스 메서드 참조*/
+
 interface A {
 	void abc(int k);
 }
@@ -28,6 +30,7 @@ public class RefOfIntanceMethod_Type1_2 {
 		a3.abc(3);
 	}
 }
+
 
 
 
